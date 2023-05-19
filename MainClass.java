@@ -1,11 +1,11 @@
 import javax.swing.JFrame;
 
-public class mainclass {
+public class MainClass {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         JFrame frame = new JFrame();
         GamePlay gamePlay = new GamePlay();
-        frame.setBounds(10,10,700,600);
+        frame.setBounds(10, 10, 700, 600);
         frame.setTitle("Brick breaker Game");
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -14,9 +14,3 @@ public class mainclass {
     }
 }
 
-
-public class GamePlay  {
-    public GamePlay(){
-        System.out.print("IDK");
-    }
-}
